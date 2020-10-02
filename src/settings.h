@@ -6,7 +6,6 @@ enum radios {
     CB_RADIO_ADB,
     CB_RADIO_IOS,
     CB_WIFI_SRVR,
-    CB_H_FLIP,
     CB_RADIO_COUNT
 };
 

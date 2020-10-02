@@ -17,7 +17,7 @@ clean:
 	$(MAKE) -C $(KERNEL_DIR) M=$(PWD) clean
 
 insmod:
-	sudo insmod v4l2loopback-dc.ko width=640 height=480 name=
+	sudo insmod v4l2loopback-dc.ko width=640 height=480 name="USBWebcam HD"
 
 rmmod:
 	sudo rmmod v4l2loopback-dc.ko
